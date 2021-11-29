@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <div className="main-container">
           <div className="sub-container">
-            <h1>... </h1>
-            <h1>Ba</h1>
-            <CgProfile/>
+            <h1 className="side-items">... </h1>
+            <h1 className="side-items">Ba</h1>
+            <CgProfile className="profile-icon"/>
           </div>
           <div className="right-container">
           <div >
@@ -46,8 +46,9 @@ function App() {
               </div>
             </div>
             </div>
+            <div>
              <img src="https://res.cloudinary.com/dqnh9af86/image/upload/v1638203439/Screenshot_2021-11-29_215950_kohm5h.png" alt="pic" className="side-image" />
-
+            </div>
             </div>
             <div className="bottom-text-container">
               <div className="social-medial-container">
